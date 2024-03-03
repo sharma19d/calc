@@ -10,7 +10,7 @@ echo -e "now you have to enter you oparater : \c"
 
 read char1
 
-case $char1 in
+case $char1 in 
           + )
                   result=$(( num1 + $num2  )) ;;
           - )
